@@ -1,9 +1,6 @@
 package OOP.task2;
 
-import OOP.task2.Classes.Market;
-import OOP.task2.Classes.OrdinaryClient;
-import OOP.task2.Classes.SpecialClient;
-import OOP.task2.Classes.TaxInspector;
+import OOP.task2.Classes.*;
 import OOP.task2.Interfaces.iActorBehaviour;
 
 public class App {
@@ -20,7 +17,6 @@ public class App {
         magnit.acceptToMarket(client2);
         magnit.acceptToMarket(client3);
         magnit.acceptToMarket(client4);
-
 
         magnit.update();
     }

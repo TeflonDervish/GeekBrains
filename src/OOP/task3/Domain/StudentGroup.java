@@ -5,7 +5,7 @@ import OOP.task3.Domain.Student;
 import java.util.Iterator;
 import java.util.List;
 
-public class StudentGroup implements Iterable<Student> {
+public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup> {
     private List<Student> group;
     private Integer idGroup;
 
@@ -73,4 +73,8 @@ public class StudentGroup implements Iterable<Student> {
     }
 
 
+    @Override
+    public int compareTo(StudentGroup o) {
+        return Integer.compare(group.size(), o.getGroup().size());
+    }
 }

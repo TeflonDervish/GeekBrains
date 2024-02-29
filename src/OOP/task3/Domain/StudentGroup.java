@@ -32,10 +32,7 @@ public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup>
 
     @Override
     public String toString() {
-        return "StudentGroup{" +
-                "group=" + group +
-                ", idGroup=" + idGroup +
-                '}';
+        return "StudentGroup{" + "group=" + group + ", idGroup=" + idGroup + '}';
     }
 
     // @Override

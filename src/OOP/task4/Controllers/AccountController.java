@@ -12,8 +12,15 @@ public class AccountController {
     }
 
     //Загатовка для метода averageAge
-    public static <T extends Person> double averageAge(List<T> persons)
-    {
-        return 0.0;
+    public static <T extends Person> double averageAge(List<T> persons) {
+        double sum_age = 0;
+
+        for (int i = 0; i < persons.size(); i++) {
+            sum_age += persons.get(i).getAge();
+        }
+
+        return sum_age / persons.size();
+
     }
+
 }

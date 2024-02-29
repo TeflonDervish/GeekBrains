@@ -63,6 +63,14 @@ public class App {
 
         System.out.println(AccountController.averageAge(listStud));
 
+        // Подсчет среднего возраста всех человек
+
+        List<Person> list = new ArrayList<>();
+        list.add(t1);
+        list.add(t2);
+        list.add(e1);
+
+        System.out.println("AccountController.averageAge(list) = " + AccountController.averageAge(list));
 
     }
 }

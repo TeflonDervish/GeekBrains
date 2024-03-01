@@ -2,7 +2,7 @@ package OOP.task5;
 
 import OOP.task5.Controller.ControllerClass;
 import OOP.task5.Controller.Interfaces.iGetView;
-import OOP.task5.Model.Domain.FileModelClass;
+import OOP.task5.Model.FileModelClass;
 import OOP.task5.Model.Domain.Student;
 import OOP.task5.View.ViewClass;
 

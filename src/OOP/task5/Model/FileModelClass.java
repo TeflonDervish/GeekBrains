@@ -1,7 +1,8 @@
-package OOP.task5.Model.Domain;
+package OOP.task5.Model;
 
 
 import OOP.task5.Controller.Interfaces.iGetModel;
+import OOP.task5.Model.Domain.Student;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -3,9 +3,13 @@ package OOP.task5.Controller;
 import OOP.task5.Controller.Interfaces.iGetModel;
 import OOP.task5.Controller.Interfaces.iGetView;
 import OOP.task5.Model.Domain.Student;
+import OOP.task5.Model.ModelClass;
+import OOP.task5.Model.ModelClassHash;
+import OOP.task5.View.ViewClassEng;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class ControllerClass {
 
@@ -47,6 +51,28 @@ public class ControllerClass {
             String command = view.prompt("Введите команду: ");
             com = Command.valueOf(command.toUpperCase());
             switch (com) {
+                case DELETE:
+
+                    Scanner in = new Scanner(System.in);
+                    int n = in.nextInt();
+
+                    if (model.getClass().equals(ModelClass.class)){
+
+                        if (n < 0 || n > ((ModelClass) model).getAllStudents().size()) System.out.println("There's no student with that number");
+                        else {
+                            ((ModelClass) model).getAllStudents().remove(n);
+                        }
+
+                    }else if (model.getClass().equals(ModelClassHash.class)){
+
+                        if (!((ModelClassHash) model).containsKey(n)) System.out.println("There's no student with that number");
+                        else {
+                            ((ModelClassHash) model).removeStudent(n);
+                        }
+
+                    }
+                    break;
+
                 case EXIT:
                     getNewIteration = false;
                     System.out.println("Выход из программы!");

@@ -7,19 +7,19 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
-public class ViewClass implements iGetView {
+public class ViewClassEng implements iGetView {
+    @Override
+    public void printAllStudents(Collection<Student> students) {
 
-    public void printAllStudents(Collection<Student> students)
-    {
-        System.out.println("--------------------Список студентов-------------------");
+        System.out.println("_____Student list_____");
 
         System.out.println("students = " + students);
 
-        System.out.println("-------------------------------------------------------");
+        System.out.println("______________________");
     }
 
-    public String prompt(String msg)
-    {
+    @Override
+    public String prompt(String msg) {
         Scanner in = new Scanner(System.in);
         System.out.println(msg);
         return in.nextLine();

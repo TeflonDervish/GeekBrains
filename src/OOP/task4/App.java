@@ -57,7 +57,7 @@ public class App {
         // controller.paySalary(t1, 50000);
         // controller.paySalary(e1, 50000);
 
-        AccountController.paySalary(e1, 50000);
+        AccountController.paySalary(t1, 50000);
 
         AccountController.paySalary(e1, 20000);
 

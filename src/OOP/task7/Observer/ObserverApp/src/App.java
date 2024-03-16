@@ -1,9 +1,11 @@
-import Clients.Company;
-import Interfaces.iPublisher;
-import Observers.Junior;
-import Observers.Master;
-import Observers.Student;
-import Publishers.JobAgency;
+package OOP.task7.Observer.ObserverApp.src;
+
+import OOP.task7.Observer.ObserverApp.src.Clients.Company;
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iPublisher;
+import OOP.task7.Observer.ObserverApp.src.Observers.Junior;
+import OOP.task7.Observer.ObserverApp.src.Observers.Master;
+import OOP.task7.Observer.ObserverApp.src.Observers.Student;
+import OOP.task7.Observer.ObserverApp.src.Publishers.JobAgency;
 
 public class App {
     public static void main(String[] args) throws Exception {

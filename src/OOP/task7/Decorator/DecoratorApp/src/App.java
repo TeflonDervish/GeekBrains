@@ -1,3 +1,5 @@
+package OOP.task7.Decorator.DecoratorApp.src;
+
 public class App {
     public static void main(String[] args) throws Exception {
       // iCalculable calc = new Calculator(0);

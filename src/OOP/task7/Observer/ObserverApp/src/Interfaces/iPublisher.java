@@ -1,4 +1,4 @@
-package Interfaces;
+package OOP.task7.Observer.ObserverApp.src.Interfaces;
 
 // Это интерфейс рассылки наблюдателям
 // Он может регистрировать наблюдателей, избавляться от них, и рассылать им всем сообщения

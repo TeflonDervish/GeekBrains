@@ -1,5 +1,6 @@
-package Observers;
-import Interfaces.iObserver;
+package OOP.task7.Observer.ObserverApp.src.Observers;
+
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iObserver;
 
 // Профи, ищет хорошую работу
 public class Master implements iObserver {

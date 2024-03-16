@@ -1,11 +1,13 @@
+package OOP.task7.Fabric.FabricApp.src;
+
+import OOP.task7.Fabric.FabricApp.src.Fabric.GemGenerator;
+import OOP.task7.Fabric.FabricApp.src.Fabric.GoldGenerator;
+import OOP.task7.Fabric.FabricApp.src.Fabric.ItemGenerator;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-
-import Fabric.GemGenerator;
-import Fabric.GoldGenerator;
-import Fabric.ItemGenerator;
 
 public class App {
     public static void main(String[] args) throws Exception {

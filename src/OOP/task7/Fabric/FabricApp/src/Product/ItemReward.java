@@ -1,6 +1,6 @@
-package Product;
+package OOP.task7.Fabric.FabricApp.src.Product;
 
-import Interface.iGameItem;
+import OOP.task7.Fabric.FabricApp.src.Interface.iGameItem;
 
 public abstract class ItemReward implements iGameItem {
     

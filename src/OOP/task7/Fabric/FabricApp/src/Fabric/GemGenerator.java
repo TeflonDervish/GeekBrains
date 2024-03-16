@@ -1,7 +1,8 @@
-package Fabric;
+package OOP.task7.Fabric.FabricApp.src.Fabric;
 
-import Interface.iGameItem;
-import Product.Gem;
+
+import OOP.task7.Fabric.FabricApp.src.Interface.iGameItem;
+import OOP.task7.Fabric.FabricApp.src.Product.Gem;
 
 public class GemGenerator extends ItemGenerator {
 

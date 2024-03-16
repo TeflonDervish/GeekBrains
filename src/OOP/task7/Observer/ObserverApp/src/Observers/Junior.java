@@ -1,10 +1,11 @@
-package Observers;
+package OOP.task7.Observer.ObserverApp.src.Observers;
 
-import Interfaces.iObserver;
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iObserver;
+
 import java.util.Random;
 
 // Джуниор, ищет работу подбрасывая монетку
-public class Junior implements iObserver{
+public class Junior implements iObserver {
 
     private String name;
 

@@ -1,4 +1,4 @@
-package Product;
+package OOP.task7.Fabric.FabricApp.src.Product;
 
 public class Gem extends ItemReward {
 

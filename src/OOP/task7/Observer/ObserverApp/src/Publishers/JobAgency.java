@@ -1,10 +1,10 @@
-package Publishers;
+package OOP.task7.Observer.ObserverApp.src.Publishers;
+
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iObserver;
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iPublisher;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import Interfaces.iObserver;
-import Interfaces.iPublisher;
 
 // Реализация рассылки сообщений
 public class JobAgency implements iPublisher {

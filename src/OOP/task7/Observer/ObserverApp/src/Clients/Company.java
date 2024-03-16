@@ -1,8 +1,8 @@
-package Clients;
+package OOP.task7.Observer.ObserverApp.src.Clients;
+
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iPublisher;
 
 import java.util.Random;
-
-import Interfaces.iPublisher;
 
 // Это компания, которая нуждается в сотрудниках, она будет давать команду агенству
 public class Company {

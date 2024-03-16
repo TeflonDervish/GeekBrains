@@ -20,9 +20,8 @@ public class TeacherService implements iPersonService<Teacher>{
         return teachers;
     }
 
-
     @Override
-    public void create(String name, int age, String acadDegree) {
+    public void create(String name, int age) {
 
     }
 }

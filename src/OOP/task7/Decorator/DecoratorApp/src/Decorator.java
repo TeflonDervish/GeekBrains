@@ -1,3 +1,5 @@
+package OOP.task7.Decorator.DecoratorApp.src;
+
 public class Decorator implements iCalculable {
     private Calculator a;
     private Logger b;

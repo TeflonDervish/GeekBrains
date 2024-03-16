@@ -1,6 +1,6 @@
-package Observers;
+package OOP.task7.Observer.ObserverApp.src.Observers;
 
-import Interfaces.iObserver;
+import OOP.task7.Observer.ObserverApp.src.Interfaces.iObserver;
 
 // Студент, цепляется за любую работу, которая лучше текущей
 public class Student implements iObserver {

@@ -127,3 +127,15 @@ E
 src/Picnic/output.txt,d\b\db025a2e4e667712478b2e6b69eaec5d45553dc4
 f
 6src/Exception/Exceptions/IncorrectGenderException.java,3\a\3a32a925d89ede7e55d10eaa8db1c0bb7ee7b09f
+L
+src/Exception/Files/file.txt,a\3\a34712203b6028574e46f73b2bad45836a05a8cc
+G
+src/Exception/Files/123,b\4\b43c91d3abb8037b696ef469dca4317a041a1cde
+K
+src/Exception/Files/123.txt,7\4\74d6baf55e8017695ec406064ac211184ee1c2c4
+=
+src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
+V
+&src/Exception/Files/Фамилия.txt,7\e\7eef6e73c184b78aa3437fc7b5c16b29fe621c5e
+S
+#src/Exception/Files/Что-то.txt,6\5\655a0ab504a48d66db88211ff18a4e09e15d565e

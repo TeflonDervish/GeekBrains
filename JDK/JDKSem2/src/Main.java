@@ -1,18 +1,14 @@
-import java.util.Iterator;
+import client.domain.ClientController;
+import client.ui.ClientGUI;
+import server.domain.ServerController;
+import server.repository.FileStorage;
+import server.ui.ServerWindow;
 
 public class Main {
     public static void main(String[] args) {
+        ServerController serverController = new ServerController(new ServerWindow(), new FileStorage());
 
-        Pair<Integer, Double> numberPair = new Pair<>(10, 20.5);
-        System.out.println(PairUtils.sumOrConcat(numberPair));
-
-        Pair<String, String> stringPair = new Pair<>("Hello, ", "World!");
-        System.out.println(PairUtils.sumOrConcat(stringPair));
-
-        Pair<Integer, String> mixedPair = new Pair<>(42, "Answer");
-        System.out.println(PairUtils.sumOrConcat(mixedPair));
-
-
-
+        new ClientController(new ClientGUI(), serverController);
+        new ClientController(new ClientGUI(), serverController);
     }
 }

@@ -9,14 +9,21 @@ public class Employee implements Comparator<LocalDate> {
 
     private static final int CURRENT_YEAR = 2022;
 
-    String name;
-    String midName;
-    String surName;
-    String position;
-    String phone;
-    double salary;
-    int birth;
+    private String name;
+    private String midName;
+    private String surName;
+    private String position;
+    private String phone;
+    private double salary;
+    private LocalDate birth;
+    private Gender gender;
 
+
+    public Employee(String surName, String name, Gender gender){
+        this.surName = surName;
+        this.name = name;
+        this.gender = gender;
+    }
 
     @Override
     public int compare(LocalDate o1, LocalDate o2) {
@@ -29,8 +36,7 @@ public class Employee implements Comparator<LocalDate> {
 
     enum Gender{
         MALE,
-        FEMALE,
-        NON_BINARY
+        FEMALE
     }
 
 }

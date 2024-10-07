@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Information</h1>
+    <p>Name: <span th:text="${user.name}"></span></p>
+    <p>Surname: <span th:text="${user.surname}"></span></p>
+    <p>Mail: <span th:text="${user.email}"></span></p>
+    <p>Phone number: <span th:text="${user.phoneNumber}"></span></p>
+
+<h2>Add information</h2>
+<form action="/form" method="post">
+    Name: <input type="text" name="name"><br/>
+    Surname: <input type="text" name="surname"><br/>
+    Mail: <input type="text" name="email"><br/>
+    Phone number: <input type="text" step="any" name="phoneNumber"><br/>
+    <button type="submit">Add information</button>
+</form>
+</body>
+</html>

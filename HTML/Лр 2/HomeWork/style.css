@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-heading {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.section-heading {
+    color: coral;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}

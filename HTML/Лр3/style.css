@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.top_content {
+    margin-top: 84px;
+}
+
+.text_paragraph {
+    margin-top: 17px;
+}
+
+.buttons {
+    margin-top: 37px;
+}
+
+.brand_logo {
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
